@@ -17,25 +17,8 @@ This project implements a Deep Q-Network (DQN) to solve a continuous 2D maze nav
   - Distance-based shaping: reward for moving closer to goal
   - Step penalty: -0.01 per step
 
-## Experiments
 
-### Experiment 1: High Step Limit
-- **max_steps**: 10,000
-- **Result**: Training curve saved as `1_training_curve.png`
-- **Issue**: Agent had too much time to explore inefficiently, and model was not saved
-
-### Experiment 2: Reduced Step Limit + Epsilon Decay
-- **max_steps**: 200
-- **epsilon**: `max(0.05, 0.3 - 0.01 * (n_episode / 1000))`
-- **Result**: Training curve saved as `2_training_curve.png`
-- **Improvement**: Better exploration-exploitation balance
-
-### Experiment 3: Optimal Configuration
-- **Same parameters as Experiment 2**
-- **Result**: Training curve saved as `3_training_curve.png`
-- **Outcome**: Agent found optimal path (longer route avoiding obstacles)
-
-### Experiment 4: Multi-Path Learning with Improved Architecture (to follow the assignment struture of epsilon)
+## Multi-Path Learning with Improved Architecture (to follow the assignment struture of epsilon)
 - **max_steps**: 200
 - **epsilon**: Exponential decay from 1.0 to 0.1
 - **Network**: 4-layer architecture (256→256→128→4) with dropout
