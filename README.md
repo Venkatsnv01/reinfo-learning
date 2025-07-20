@@ -18,7 +18,7 @@ This project implements a Deep Q-Network (DQN) to solve a continuous 2D maze nav
   - Step penalty: -0.01 per step
 
 
-## Multi-Path Learning with Improved Architecture (to follow the assignment struture of epsilon)
+## Multi-Path Learning with Improved Architecture
 - **max_steps**: 200
 - **epsilon**: Exponential decay from 1.0 to 0.1
 - **Network**: 4-layer architecture (256→256→128→4) with dropout
