@@ -2,7 +2,7 @@
 
 # Deep Q-Network (DQN) for Continuous Maze Navigation
 
-This project implements a Deep Q-Network (DQN) to solve a continuous 2D maze navigation problem with complex reward structures and obstacles. Through a series of experiments—ranging from step-limit tuning to epsilon decay strategies and architectural improvements—the agent successfully learns both single and multi-path solutions to reach the goal, avoiding danger zones and optimizing rewards.
+This Academic project implements a Deep Q-Network (DQN) to solve a continuous 2D maze navigation problem with complex reward structures and obstacles. Through a series of experiments—ranging from step-limit tuning to epsilon decay strategies and architectural improvements—the agent successfully learns both single and multi-path solutions to reach the goal, avoiding danger zones and optimizing rewards.
 
 
 ## Environment
